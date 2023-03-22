@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CDC412829CB80B6000D6605 /* NavigationSplitVIewPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC412729CB80B6000D6605 /* NavigationSplitVIewPlaygroundApp.swift */; };
-		0CDC412A29CB80B6000D6605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC412929CB80B6000D6605 /* ContentView.swift */; };
+		0CDC412829CB80B6000D6605 /* NavigationSplitViewPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC412729CB80B6000D6605 /* NavigationSplitViewPlaygroundApp.swift */; };
+		0CDC412A29CB80B6000D6605 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC412929CB80B6000D6605 /* AppRootView.swift */; };
 		0CDC412C29CB80B7000D6605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDC412B29CB80B7000D6605 /* Assets.xcassets */; };
 		0CDC413029CB80B7000D6605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDC412F29CB80B7000D6605 /* Preview Assets.xcassets */; };
+		0CDC413829CB81FC000D6605 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 0CDC413729CB81FC000D6605 /* Introspect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CDC412429CB80B6000D6605 /* NavigationSplitVIewPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSplitVIewPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CDC412729CB80B6000D6605 /* NavigationSplitVIewPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitVIewPlaygroundApp.swift; sourceTree = "<group>"; };
-		0CDC412929CB80B6000D6605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CDC412429CB80B6000D6605 /* NavigationSplitViewPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSplitViewPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDC412729CB80B6000D6605 /* NavigationSplitViewPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewPlaygroundApp.swift; sourceTree = "<group>"; };
+		0CDC412929CB80B6000D6605 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
 		0CDC412B29CB80B7000D6605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0CDC412D29CB80B7000D6605 /* NavigationSplitVIewPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationSplitVIewPlayground.entitlements; sourceTree = "<group>"; };
+		0CDC412D29CB80B7000D6605 /* NavigationSplitViewPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationSplitViewPlayground.entitlements; sourceTree = "<group>"; };
 		0CDC412F29CB80B7000D6605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDC413829CB81FC000D6605 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +38,7 @@
 		0CDC411B29CB80B6000D6605 = {
 			isa = PBXGroup;
 			children = (
-				0CDC412629CB80B6000D6605 /* NavigationSplitVIewPlayground */,
+				0CDC412629CB80B6000D6605 /* NavigationSplitViewPlayground */,
 				0CDC412529CB80B6000D6605 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +46,21 @@
 		0CDC412529CB80B6000D6605 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CDC412429CB80B6000D6605 /* NavigationSplitVIewPlayground.app */,
+				0CDC412429CB80B6000D6605 /* NavigationSplitViewPlayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CDC412629CB80B6000D6605 /* NavigationSplitVIewPlayground */ = {
+		0CDC412629CB80B6000D6605 /* NavigationSplitViewPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				0CDC412729CB80B6000D6605 /* NavigationSplitVIewPlaygroundApp.swift */,
-				0CDC412929CB80B6000D6605 /* ContentView.swift */,
+				0CDC412729CB80B6000D6605 /* NavigationSplitViewPlaygroundApp.swift */,
+				0CDC412929CB80B6000D6605 /* AppRootView.swift */,
 				0CDC412B29CB80B7000D6605 /* Assets.xcassets */,
-				0CDC412D29CB80B7000D6605 /* NavigationSplitVIewPlayground.entitlements */,
+				0CDC412D29CB80B7000D6605 /* NavigationSplitViewPlayground.entitlements */,
 				0CDC412E29CB80B7000D6605 /* Preview Content */,
 			);
-			path = NavigationSplitVIewPlayground;
+			path = NavigationSplitViewPlayground;
 			sourceTree = "<group>";
 		};
 		0CDC412E29CB80B7000D6605 /* Preview Content */ = {
@@ -72,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CDC412329CB80B6000D6605 /* NavigationSplitVIewPlayground */ = {
+		0CDC412329CB80B6000D6605 /* NavigationSplitViewPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CDC413329CB80B7000D6605 /* Build configuration list for PBXNativeTarget "NavigationSplitVIewPlayground" */;
+			buildConfigurationList = 0CDC413329CB80B7000D6605 /* Build configuration list for PBXNativeTarget "NavigationSplitViewPlayground" */;
 			buildPhases = (
 				0CDC412029CB80B6000D6605 /* Sources */,
 				0CDC412129CB80B6000D6605 /* Frameworks */,
@@ -84,9 +86,12 @@
 			);
 			dependencies = (
 			);
-			name = NavigationSplitVIewPlayground;
+			name = NavigationSplitViewPlayground;
+			packageProductDependencies = (
+				0CDC413729CB81FC000D6605 /* Introspect */,
+			);
 			productName = NavigationSplitVIewPlayground;
-			productReference = 0CDC412429CB80B6000D6605 /* NavigationSplitVIewPlayground.app */;
+			productReference = 0CDC412429CB80B6000D6605 /* NavigationSplitViewPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CDC411F29CB80B6000D6605 /* Build configuration list for PBXProject "NavigationSplitVIewPlayground" */;
+			buildConfigurationList = 0CDC411F29CB80B6000D6605 /* Build configuration list for PBXProject "NavigationSplitViewPlayground" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,11 +118,14 @@
 				Base,
 			);
 			mainGroup = 0CDC411B29CB80B6000D6605;
+			packageReferences = (
+				0CDC413629CB81FC000D6605 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 0CDC412529CB80B6000D6605 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CDC412329CB80B6000D6605 /* NavigationSplitVIewPlayground */,
+				0CDC412329CB80B6000D6605 /* NavigationSplitViewPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDC412A29CB80B6000D6605 /* ContentView.swift in Sources */,
-				0CDC412829CB80B6000D6605 /* NavigationSplitVIewPlaygroundApp.swift in Sources */,
+				0CDC412A29CB80B6000D6605 /* AppRootView.swift in Sources */,
+				0CDC412829CB80B6000D6605 /* NavigationSplitViewPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -261,10 +271,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavigationSplitVIewPlayground/NavigationSplitVIewPlayground.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NavigationSplitViewPlayground/NavigationSplitViewPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NavigationSplitVIewPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationSplitViewPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = X95U82Q5PU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -279,15 +289,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buildertrend.NavigationSplitVIewPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buildertrend.NavigationSplitViewPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,10 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavigationSplitVIewPlayground/NavigationSplitVIewPlayground.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NavigationSplitViewPlayground/NavigationSplitViewPlayground.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NavigationSplitVIewPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationSplitViewPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = X95U82Q5PU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -317,15 +329,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buildertrend.NavigationSplitVIewPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buildertrend.NavigationSplitViewPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CDC411F29CB80B6000D6605 /* Build configuration list for PBXProject "NavigationSplitVIewPlayground" */ = {
+		0CDC411F29CB80B6000D6605 /* Build configuration list for PBXProject "NavigationSplitViewPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CDC413129CB80B7000D6605 /* Debug */,
@@ -344,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CDC413329CB80B7000D6605 /* Build configuration list for PBXNativeTarget "NavigationSplitVIewPlayground" */ = {
+		0CDC413329CB80B7000D6605 /* Build configuration list for PBXNativeTarget "NavigationSplitViewPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CDC413429CB80B7000D6605 /* Debug */,
@@ -354,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CDC413629CB81FC000D6605 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CDC413729CB81FC000D6605 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CDC413629CB81FC000D6605 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0CDC411C29CB80B6000D6605 /* Project object */;
 }
